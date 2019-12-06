@@ -2,16 +2,16 @@
 class Toyotter < Formula
   desc "CUI based Twitter client for Golang"
   homepage "https://github.com/KeisukeToyota/toyotter"
-  version "0.4.0"
+  version "0.5.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/KeisukeToyota/toyotter/releases/download/v0.4.0/toyotter_0.4.0_Darwin_x86_64.tar.gz"
-    sha256 "707b849fcd2048a366b732cbe5c6055ac9ced15d79b215e5a145d302c119bf39"
+    url "https://github.com/KeisukeToyota/toyotter/releases/download/v0.5.0/toyotter_0.5.0_Darwin_x86_64.tar.gz"
+    sha256 "155e7e8d12e13a5a876c82cb40ce604874496f09a22472c53e9259d609302bf9"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/KeisukeToyota/toyotter/releases/download/v0.4.0/toyotter_0.4.0_Linux_x86_64.tar.gz"
-      sha256 "796c9dca160b7c34a09366bcaef9a12d876fff78242f2db808abdbe611af105d"
+      url "https://github.com/KeisukeToyota/toyotter/releases/download/v0.5.0/toyotter_0.5.0_Linux_x86_64.tar.gz"
+      sha256 "01d4a3685a5fcd5a962e2fe76c3e938336828fc0d5a47c8f2fd787a854934312"
     end
   end
   
