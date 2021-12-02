@@ -3,7 +3,6 @@ class Toyotter < Formula
   desc "CUI based Twitter client for Golang"
   homepage "https://github.com/ksk001100/toyotter"
   version "0.5.6"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/ksk001100/toyotter/releases/download/v0.5.6/toyotter_0.5.6_macOS_x86_64.tar.gz"
